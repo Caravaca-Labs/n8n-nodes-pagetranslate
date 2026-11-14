@@ -23,7 +23,7 @@ disposable PageTranslate account funded with existing words. The public fixture
 contains 100 words. The account needs at least one existing translation for the
 recent-jobs check. Do not use an account with private customer documents.
 
-Failure cases covered: invalid authentication, malformed or missing binary
+Before running, account for invalid authentication, malformed or missing binary
 input, upload accidentally starting translation, an uncovered cash quote,
 unconfirmed spending, terminal failures or polling timeout, invalid download
 origin, and a response that is not actually a PDF. The runner tests the listed
