@@ -55,6 +55,30 @@ Supported formats: PDF (including scans), DOCX, EPUB, PNG, JPG/JPEG, WEBP, TIFF/
 
 ## Resources
 
+### Online versions
+
+Prefer a browser?
+
+* [PageTranslate PDF translator](https://pagetranslate.ai/pdf-translator)
+* [PageTranslate EPUB translator](https://pagetranslate.ai/epub-translator)
+* [PageTranslate DOCX translator](https://pagetranslate.ai/docx-translator)
+* [Translate a book](https://pagetranslate.ai/translate-a-book)
+* [Document translation software](https://pagetranslate.ai/document-translation-software)
+* [AI novel translator](https://pagetranslate.ai/translate-a-book/ai-novel-translator)
+* [Translate a large PDF](https://pagetranslate.ai/pdf-translator/translate-large-pdf)
+
+### Guides and free tools
+
+* [How much does it cost to translate a book](https://pagetranslate.ai/faq/how-much-does-it-cost-to-translate-a-book)
+* [Translation cost calculator](https://pagetranslate.ai/tools/translation-cost-calculator)
+* [How to translate a scanned PDF](https://pagetranslate.ai/faq/how-to-translate-scanned-pdf)
+* [How to open EPUB on Kindle](https://pagetranslate.ai/blog/how-to-open-epub-on-kindle)
+* [Translation software for legal documents](https://pagetranslate.ai/document-translation-software/translation-software-for-legal-documents)
+* [Translate English to Spanish documents](https://pagetranslate.ai/document-translation-software/google-translate-english-to-spanish-documents)
+* [EPUB merger](https://pagetranslate.ai/tools/epub-merger) and other [free tools for authors](https://pagetranslate.ai/tools)
+
+### Integration documentation
+
 * [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
 * [PageTranslate API documentation](https://pagetranslate.ai/api)
 * [Support](https://pagetranslate.ai/contact)
