@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-11-14T20:11:51.710Z",
+  "package": "n8n-nodes-pagetranslate",
+  "version": "0.1.1",
+  "sourceCommit": "ea7a27a28f842e94ee6cfd97fd7ff1018d20ce1f",
+  "verification": "Official scanner analyzePackage over SOURCE_FILE_PATTERNS, inline lint configuration disabled",
+  "result": {
+    "passed": true
+  },
+  "scope": "Source analysis only. Published artifact provenance scan must also pass after npm publication.",
+  "repeat": "npx @n8n/scan-community-package@beta n8n-nodes-pagetranslate@0.1.1"
+}
