@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-11-14T20:49:51.883Z",
+  "package": "n8n-nodes-pagetranslate",
+  "version": "0.1.1",
+  "command": "npx --yes @n8n/scan-community-package@beta n8n-nodes-pagetranslate@0.1.1",
+  "exitCode": 0,
+  "output": "Checking provenance for \"n8n-nodes-pagetranslate@0.1.1\"...✅ Provenance check passed for \"n8n-nodes-pagetranslate@0.1.1\" \nFetching source for \"n8n-nodes-pagetranslate@0.1.1\"...✅ Fetched source from \"github.com/Caravaca-Labs/n8n-nodes-pagetranslate@ea7a27a\" \nDownloading \"n8n-nodes-pagetranslate@0.1.1\"...✅ Downloaded \"n8n-nodes-pagetranslate@0.1.1\" \nAnalyzing \"n8n-nodes-pagetranslate@0.1.1\"...✅ Analyzed \"n8n-nodes-pagetranslate@0.1.1\" \n✅ Package \"n8n-nodes-pagetranslate@0.1.1\" has passed all security checks\n"
+}
