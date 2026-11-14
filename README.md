@@ -2,7 +2,7 @@
 
 Translate PDF, scanned PDF, DOCX, EPUB and images with [PageTranslate](https://pagetranslate.ai), preserving document layout. OCR handles scanned pages. PDF comes back as PDF, DOCX as DOCX and EPUB as EPUB.
 
-This is a source preview. The package is not yet published to npm or verified by n8n. Do not install a similarly named registry package until this repository links to its provenance-backed release.
+Available on [npm](https://www.npmjs.com/package/n8n-nodes-pagetranslate) with GitHub Actions provenance. Submitted for n8n verification; approval is pending.
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/sustainable-use-license/) workflow automation platform.
 
@@ -16,7 +16,9 @@ This is a source preview. The package is not yet published to npm or verified by
 
 ## Installation
 
-Registry installation is not available yet. For the tested local setup, build this source checkout and follow the [repeatable n8n E2E setup](https://github.com/Caravaca-Labs/pagetranslate-integrations#repeat-the-n8n-e2e). Only use a dedicated test account. After a provenance-backed npm release is published from this repository, installation instructions will be added here.
+In self-hosted n8n, open **Settings > Community Nodes > Install**, enter `n8n-nodes-pagetranslate`, review n8n's community-code warning, and install. n8n Cloud availability requires verification approval and is not yet available.
+
+For a repeatable local verification, build this source checkout and follow the [n8n E2E setup](https://github.com/Caravaca-Labs/pagetranslate-integrations#repeat-the-n8n-e2e) with a dedicated test account.
 
 ## Operations
 
@@ -86,6 +88,8 @@ Prefer a browser?
 * [Terms](https://pagetranslate.ai/terms)
 
 ## Version history
+
+0.1.1: explicit binary-only node declaration for the n8n package scanner.
 
 0.1.0: initial integration. See CHANGELOG.md.
 

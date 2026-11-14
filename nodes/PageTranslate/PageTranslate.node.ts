@@ -23,7 +23,6 @@ const supported = new Set([
 	'gif',
 ]);
 
-// eslint-disable-next-line @n8n/community-nodes/node-usable-as-tool -- Upload requires binary workflow input, which agent tools do not support.
 export class PageTranslate implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'PageTranslate',
@@ -34,6 +33,8 @@ export class PageTranslate implements INodeType {
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
 		description: 'Translate documents into 70+ languages while preserving layout',
 		defaults: { name: 'PageTranslate' },
+		// Binary uploads cannot be agent tools; n8n's type uses undefined, not false.
+		usableAsTool: undefined,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
 		credentials: [{ name: 'pageTranslateApi', required: true }],

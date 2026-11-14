@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-pagetranslate",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Translate PDF, scanned PDF, DOCX, EPUB and image documents with PageTranslate, preserving layout",
 	"license": "MIT",
 	"homepage": "https://pagetranslate.ai",
