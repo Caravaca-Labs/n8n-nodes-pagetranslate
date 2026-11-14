@@ -2,7 +2,7 @@
 
 Translate PDF, scanned PDF, DOCX, EPUB and images with [PageTranslate](https://pagetranslate.ai), preserving document layout. OCR handles scanned pages. PDF comes back as PDF, DOCX as DOCX and EPUB as EPUB.
 
-This is a community integration, not an n8n-verified node until n8n completes verification. Unverified packages require self-hosted n8n.
+This is a source preview. The package is not yet published to npm or verified by n8n. Do not install a similarly named registry package until this repository links to its provenance-backed release.
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/sustainable-use-license/) workflow automation platform.
 
@@ -16,7 +16,7 @@ This is a community integration, not an n8n-verified node until n8n completes ve
 
 ## Installation
 
-In self-hosted n8n, open Settings > Community Nodes and install `n8n-nodes-pagetranslate`. See the [installation guide](https://docs.n8n.io/integrations/community-nodes/installation-and-management/).
+Registry installation is not available yet. For the tested local setup, build this source checkout and follow the [repeatable n8n E2E setup](https://github.com/Caravaca-Labs/pagetranslate-integrations#repeat-the-n8n-e2e). Only use a dedicated test account. After a provenance-backed npm release is published from this repository, installation instructions will be added here.
 
 ## Operations
 
