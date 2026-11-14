@@ -18,7 +18,7 @@ Available on [npm](https://www.npmjs.com/package/n8n-nodes-pagetranslate) with G
 
 In self-hosted n8n, open **Settings > Community Nodes > Install**, enter `n8n-nodes-pagetranslate`, review n8n's community-code warning, and install. n8n Cloud availability requires verification approval and is not yet available.
 
-For a repeatable local verification, build this source checkout and follow the [n8n E2E setup](https://github.com/Caravaca-Labs/pagetranslate-integrations#repeat-the-n8n-e2e) with a dedicated test account.
+For a repeatable local verification, build this source checkout and follow the [n8n E2E setup](https://github.com/Caravaca-Labs/n8n-nodes-pagetranslate/blob/main/verification/README.md) with a dedicated test account. The setup and runner are self-contained in this public repository.
 
 ## Operations
 
