@@ -1,0 +1,19 @@
+Implement a PageTranslate Document resource with Upload, Get, Get Many, Start and
+Get Download Link operations, using encrypted bearer API-key credentials.
+
+Programmatic style is required for native binary multipart upload followed by a
+dependent status request, and for converting temporary download paths to absolute
+links. The node uses n8n HTTP helpers and has no runtime package dependencies.
+It never reads local files or environment variables. It accepts binary input from
+the workflow, which is why it is not exposed as an AI tool.
+
+Upload never starts translation. Start requires a separate explicit confirmation
+toggle and sends payment_method=credits. No checkout or card-payment operation.
+Return one output item per job, preserving paired input items. Bound file sizes,
+validate job IDs and extensions, surface real API errors, never log credentials.
+
+Verification: build and strict lint, then execute a real n8n workflow against the
+production API using a dedicated funded test account. Check that upload is pending
+before start, then start, bounded polling, recent jobs and a valid PDF download.
+Save a sanitized, timestamped report with job IDs and file SHA-256; no keys or
+signed download URLs. Failure cases also appear in the parent VERIFICATION.txt.

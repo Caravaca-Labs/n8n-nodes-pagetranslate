@@ -1,0 +1,22 @@
+{
+  "engine": "real n8n CLI",
+  "started_at": "2026-11-14T18:40:17.444Z",
+  "checks": [
+    "Get Many executes in n8n and honors limit",
+    "Binary upload returns a quote and remains pending",
+    "Unconfirmed start is rejected and job stays pending",
+    "Confirmed start, completed status and downloadable PDF succeed"
+  ],
+  "job": {
+    "job_id": "6af8ab23c9549512469972a3",
+    "word_count": 100,
+    "target_language": "es"
+  },
+  "output": {
+    "filename": "translated.pdf",
+    "bytes": 1693,
+    "sha256": "b1d4faf3ff79e1442693543efc6010a4fc542ccf58b1e4cbee6c0ee2c1e2a888"
+  },
+  "success": true,
+  "finished_at": "2026-11-14T18:41:16.586Z"
+}

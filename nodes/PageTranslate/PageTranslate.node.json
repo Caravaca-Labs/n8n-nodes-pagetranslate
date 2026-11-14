@@ -1,0 +1,12 @@
+{
+	"node": "n8n-nodes-pagetranslate.pageTranslate",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Utility"],
+	"resources": {
+		"credentialDocumentation": [{ "url": "https://pagetranslate.ai/api" }],
+		"primaryDocumentation": [
+			{ "url": "https://github.com/Caravaca-Labs/n8n-nodes-pagetranslate#readme" }
+		]
+	}
+}

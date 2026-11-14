@@ -1,0 +1,12 @@
+{
+  "name": "PageTranslate - Upload a PDF and review its quote",
+  "nodes": [
+    { "id": "trigger", "name": "Manual Trigger", "type": "n8n-nodes-base.manualTrigger", "typeVersion": 1, "position": [0, 0], "parameters": {} },
+    { "id": "fixture", "name": "Public PDF Example", "type": "n8n-nodes-base.httpRequest", "typeVersion": 4.2, "position": [240, 0], "parameters": { "url": "https://raw.githubusercontent.com/Caravaca-Labs/pagetranslate-mcp/main/test/fixtures/sample.pdf", "options": { "response": { "response": { "responseFormat": "file", "outputPropertyName": "data" } } } } },
+    { "id": "upload", "name": "PageTranslate", "type": "n8n-nodes-pagetranslate.pageTranslate", "typeVersion": 1, "position": [480, 0], "parameters": { "resource": "document", "operation": "upload", "binaryPropertyName": "data", "targetLanguage": "es" } },
+    { "id": "note", "name": "Review before starting", "type": "n8n-nodes-base.stickyNote", "typeVersion": 1, "position": [210, -250], "parameters": { "content": "## PageTranslate PDF translator\nChoose your own PageTranslate API credential in the Upload node. Run this workflow to upload the public sample PDF and see its word count, quote and job ID. Upload does not start translation or spend words.\n\nAfter reviewing the quote and getting user confirmation, add a PageTranslate Start node and explicitly enable Confirm Spending Words. Follow with bounded 30-second Wait/Get checks and Get Download Link after completion.\n\nhttps://pagetranslate.ai | https://pagetranslate.ai/api", "width": 560, "height": 230 } }
+  ],
+  "connections": { "Manual Trigger": { "main": [[{ "node": "Public PDF Example", "type": "main", "index": 0 }]] }, "Public PDF Example": { "main": [[{ "node": "PageTranslate", "type": "main", "index": 0 }]] } },
+  "settings": { "executionOrder": "v1" },
+  "active": false
+}
