@@ -4,6 +4,9 @@
 	"description": "Translate PDF, scanned PDF, DOCX, EPUB and image documents with PageTranslate, preserving layout",
 	"license": "MIT",
 	"homepage": "https://pagetranslate.ai",
+	"publishConfig": {
+		"access": "public"
+	},
 	"keywords": [
 		"n8n-community-node-package",
 		"pagetranslate",
